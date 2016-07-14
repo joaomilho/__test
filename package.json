@@ -4,7 +4,6 @@
   "description": "",
   "main": "browser.js",
   "scripts": {
-    "lint": "standard",
     "test": "tape foo.spec.js"
   },
   "author": "Juan Lulkin <maiz@lulk.in> (https://medium.com/@joaomilho/)",
