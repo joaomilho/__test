@@ -1,0 +1,28 @@
+{
+  "name": "@klarna/browser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "browser.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape foo.spec.js"
+  },
+  "author": "Juan Lulkin <maiz@lulk.in> (https://medium.com/@joaomilho/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0",
+    "testling": "^1.7.1"
+  },
+  "testling": {
+    "files": "foo.spec.js",
+    "browsers": [
+      "ie/8",
+      "chrome/22",
+      "firefox/16",
+      "android-browser/latest"
+    ]
+  }
+}
